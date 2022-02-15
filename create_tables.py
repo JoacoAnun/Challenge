@@ -18,3 +18,5 @@ rows = file.split(';')[:-1]  # Último elemento siempre esta vacio
 for row in rows:
     cur.execute(row)
     conn.commit()
+
+conn.close()

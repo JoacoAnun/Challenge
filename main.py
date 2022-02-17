@@ -167,7 +167,7 @@ def registers_to_sql(dirs):
     logging.info(f'Dimensiones de resgitro :{tabla.shape}')
 
 
-if __name__ == '__main__':
+def run():
     file_dirs = []
 
     # Extraccion y formateamos los datos de las urls
@@ -182,3 +182,7 @@ if __name__ == '__main__':
     cines_to_sql(file_dirs[1])
     all_info_to_sql(file_dirs)
     registers_to_sql(file_dirs)
+
+
+if __name__ == '__main__':
+    run()

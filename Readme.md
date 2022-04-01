@@ -10,9 +10,10 @@ Instalar el modulo venv, en ubuntu: sudo apt install -y python3.8-venv
 Crear el directorio para almacenar el proyecto
 
 Ubicarse en el directorio y ejecutar el comando python3 -m venv venv
+
 venv al final sera el nombre del directorio donde se almacena el entorno virtual y las configuraciones
 
-Activer el entorno virtual de la siguiente manera $ source venv/bin/activate
+Activar el entorno virtual de la siguiente manera $ source venv/bin/activate
 Debera aparecer (venv) a la izquierda de la consola de comandos.
 
 
